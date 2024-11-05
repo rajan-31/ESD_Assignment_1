@@ -1,0 +1,38 @@
+#brand_name {
+    color: rgb(244, 13, 48);
+}
+
+.my-card {
+    /* position: relative; */
+    width: 22rem;
+    height: 100%;
+    background: radial-gradient(rgb(204, 116, 1), rgb(255, 209, 58));
+
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+    margin-inline: auto;
+}
+
+.my-card-img {
+    width: 140%;
+    margin-left: -20%;
+}
+
+.my-card-title {
+
+}
+
+.my-card-description {
+
+}
+
+.my-card-btn {
+    
+}
+
+.my-card-rating {
+    color: rgb(139, 0, 0);
+}

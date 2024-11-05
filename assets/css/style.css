@@ -1,0 +1,19 @@
+/* colors
+    icon    rgb(244, 13, 48)
+    order_now   rgb(254, 74, 73)
+
+    star    rgb(139, 0, 0)
+    button  rgb(254, 74, 73)
+    prod_up rgb(255, 197, 0)
+    prod_mid    rgb(219, 124, 0)
+
+    down_ribbon rgb(255, 193, 7)
+*/
+
+.mt-10 {
+    margin-top: 10rem;
+}
+
+.mb-8 {
+    margin-bottom: 8rem;
+}
