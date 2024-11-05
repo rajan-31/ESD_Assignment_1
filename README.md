@@ -15,3 +15,13 @@ Build a static e-commerce web application featuring the following pages, using H
 
 - Upload a zip file, containing all the files.
 - Provide your Github public repo link also, make sure its a public repo, repo link is valid, and your commit message make sense, as it may be checked during final your "VIVA". 
+
+---
+
+Images taken from
+
+https://www.pngwing.com
+
+Icons taken from
+
+https://fontawesome.com/icons
