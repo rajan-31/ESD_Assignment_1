@@ -17,3 +17,7 @@
 .mb-8 {
     margin-bottom: 8rem;
 }
+
+.px-10 {
+    padding-inline: 10rem !important;
+}

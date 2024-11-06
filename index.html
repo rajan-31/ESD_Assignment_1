@@ -8,6 +8,8 @@
 
     <title>Home</title>
 
+    <link rel="icon" type="image/svg" href="/assets/icons/utensils-solid.svg">
+
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/index.css">
 
@@ -17,8 +19,8 @@
 <body">
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="/assets/icons/utensils-solid.svg" alt="Logo" width="30" height="24"
+            <a class="navbar-brand fs-2 fw-bold" href="#">
+                <img src="/assets/icons/utensils-solid.svg" alt="Logo" width="35" height="35"
                     class="d-inline-block align-text-top">
                 <span id="brand_name">Yummy</span>
             </a>
@@ -30,22 +32,22 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
 
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link fw-bold active" aria-current="page" href="#">Home</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Cart</a>
+                        <a class="nav-link fw-bold disabled" aria-disabled="true">Cart</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Profile</a>
+                        <a class="nav-link fw-bold disabled" aria-disabled="true">Profile</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="/signup.html">Login</a>
+                        <a class="nav-link fw-bold" href="/signup.html">Login</a>
                     </li>
 
                 </ul>
@@ -53,178 +55,221 @@
         </div>
     </nav>
 
-    <img src="/assets/img/hero.jpg" class="w-100" alt="Hero image">
+    <section id="hero" class="text-white text-center d-flex">
+        <div class="">
+            <h1 class="">It's not just food it's and <br>Experience!</h1>
+
+            <p class="fw-bold">The best delicious food that meet your needs, order now</p class="fw-bold">
+
+            <button class="btn btn-danger rounded-pill fw-bold">
+                Order Now 
+                <img src="/assets/icons/arrow-right-solid.svg" alt="→" style="height: 1.3rem;">
+            </button>
+        </div>
+    </section>
 
 
     <h1 class="text-center py-5 fw-bolder">Order Fresh Food</h1>
 
 
-    <div class="container-fluid px-5">
-        <div class="row justify-content-around">
-            <div class="my-5 col-12 col-xl-6 col-xxl-3">
-                <div class="my-card px-3 pb-3">
-                    <img src="/assets/img/masala_dosa.png" class="my-card-img" alt="Masala Dosa">
+    <div id="products-container" class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-12 col-xl-6 col-xxl-3">
+                <div class="card rounded-top-pill rounded-bottom-5 mx-auto" style="width: 18rem;">
+                    <div class="card-img-placeholder position-relative">
+                        <img src="/assets/img/masala_dosa.png" class="position-absolute card-img-top_" alt="...">
 
-                    <h3 class="my-card-title fw-bold mt-4">Masala Dosa</h3>
-
-                    <div class="d-flex flex-row">
-                        <p class="my-card-description flex-grow-1 pt-1">Descripción de la <br>comida, con <br>ingredientes</p>
-                        <p class="fw-bold fs-4">&#8377;60</p>
                     </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold fs-4">Masala Dosa</h5>
 
-                    <div class="d-flex flex-row">
-                        <button type="button" class="btn btn-danger">Add to Cart</button>
-                        <div class="flex-grow-1"></div>
                         <div class="d-flex flex-row">
-                            <img src="/assets/icons/star.svg" width="28" alt="★">
-                            <p class="my-card-rating fw-bold my-auto">(4.6)</p>
+                            <div class="d-flex flex-column">
+                                <p class="card-text pt-2">Descripcion de la comida, con ingredientes.</p>
+                                <div class="flex-grow-1"></div>
+                                <div><a href="#" class="btn btn-danger fs-5">Add to Cart</a></div>
+                            </div>
+    
+                            <div class="d-flex flex-column text-end">
+                                <p class="fw-bold fs-5">₹60</p>
+                                <div class="flex-grow-1"></div>
+                                <div class="d-flex fw-bold fs-5 card-rating"><img src="/assets/icons/star.svg" width="28" alt="★"> (4.6)</div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="my-5 col-12 col-xl-6 col-xxl-3">
-                <div class="my-card px-3 pb-3">
-                    <img src="/assets/img/manchurian.png" class="my-card-img" alt="Manchurian">
+            <div class="col-12 col-xl-6 col-xxl-3">
+                <div class="card rounded-top-pill rounded-bottom-5 mx-auto" style="width: 18rem;">
+                    <div class="card-img-placeholder position-relative">
+                        <img src="/assets/img/manchurian.png" class="position-absolute card-img-top_" alt="...">
 
-                    <h3 class="my-card-title fw-bold mt-4">Manchurian</h3>
-
-                    <div class="d-flex flex-row">
-                        <p class="my-card-description flex-grow-1 pt-1">Descripción de la <br>comida, con <br>ingredientes</p>
-                        <p class="fw-bold fs-4">&#8377;60</p>
                     </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold fs-4">Masala Dosa</h5>
 
-                    <div class="d-flex flex-row">
-                        <button type="button" class="btn btn-danger">Add to Cart</button>
-                        <div class="flex-grow-1"></div>
                         <div class="d-flex flex-row">
-                            <img src="/assets/icons/star.svg" width="28" alt="★">
-                            <p class="my-card-rating fw-bold my-auto">(4.6)</p>
+                            <div class="d-flex flex-column">
+                                <p class="card-text pt-2">Descripcion de la comida, con ingredientes.</p>
+                                <div class="flex-grow-1"></div>
+                                <div><a href="#" class="btn btn-danger fs-5">Add to Cart</a></div>
+                            </div>
+    
+                            <div class="d-flex flex-column text-end">
+                                <p class="fw-bold fs-5">₹60</p>
+                                <div class="flex-grow-1"></div>
+                                <div class="d-flex fw-bold fs-5 card-rating"><img src="/assets/icons/star.svg" width="28" alt="★"> (4.6)</div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="my-5 col-12 col-xl-6 col-xxl-3">
-                <div class="my-card px-3 pb-3">
-                    <img src="/assets/img/steamed_idli.png" class="my-card-img" alt="Steamed Idli">
+            <div class="col-12 col-xl-6 col-xxl-3">
+                <div class="card rounded-top-pill rounded-bottom-5 mx-auto" style="width: 18rem;">
+                    <div class="card-img-placeholder position-relative">
+                        <img src="/assets/img/steamed_idli.png" class="position-absolute card-img-top_" alt="...">
 
-                    <h3 class="my-card-title fw-bold mt-4">Steamed Idli</h3>
-
-                    <div class="d-flex flex-row">
-                        <p class="my-card-description flex-grow-1 pt-1">Descripción de la <br>comida, con <br>ingredientes</p>
-                        <p class="fw-bold fs-4">&#8377;60</p>
                     </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold fs-4">Masala Dosa</h5>
 
-                    <div class="d-flex flex-row">
-                        <button type="button" class="btn btn-danger">Add to Cart</button>
-                        <div class="flex-grow-1"></div>
                         <div class="d-flex flex-row">
-                            <img src="/assets/icons/star.svg" width="28" alt="★">
-                            <p class="my-card-rating fw-bold my-auto">(4.6)</p>
+                            <div class="d-flex flex-column">
+                                <p class="card-text pt-2">Descripcion de la comida, con ingredientes.</p>
+                                <div class="flex-grow-1"></div>
+                                <div><a href="#" class="btn btn-danger fs-5">Add to Cart</a></div>
+                            </div>
+    
+                            <div class="d-flex flex-column text-end">
+                                <p class="fw-bold fs-5">₹60</p>
+                                <div class="flex-grow-1"></div>
+                                <div class="d-flex fw-bold fs-5 card-rating"><img src="/assets/icons/star.svg" width="28" alt="★"> (4.6)</div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="my-5 col-12 col-xl-6 col-xxl-3">
-                <div class="my-card px-3 pb-3">
-                    <img src="/assets/img/bolognese.png" class="my-card-img" alt="Bolognese">
+            <div class="col-12 col-xl-6 col-xxl-3">
+                <div class="card rounded-top-pill rounded-bottom-5 mx-auto" style="width: 18rem;">
+                    <div class="card-img-placeholder position-relative">
+                        <img src="/assets/img/bolognese.png" class="position-absolute card-img-top_" alt="...">
 
-                    <h3 class="my-card-title fw-bold mt-4">Bolognese</h3>
-
-                    <div class="d-flex flex-row">
-                        <p class="my-card-description flex-grow-1 pt-1">Descripción de la <br>comida, con <br>ingredientes</p>
-                        <p class="fw-bold fs-4">&#8377;60</p>
                     </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold fs-4">Masala Dosa</h5>
 
-                    <div class="d-flex flex-row">
-                        <button type="button" class="btn btn-danger">Add to Cart</button>
-                        <div class="flex-grow-1"></div>
                         <div class="d-flex flex-row">
-                            <img src="/assets/icons/star.svg" width="28" alt="★">
-                            <p class="my-card-rating fw-bold my-auto">(4.6)</p>
+                            <div class="d-flex flex-column">
+                                <p class="card-text pt-2">Descripcion de la comida, con ingredientes.</p>
+                                <div class="flex-grow-1"></div>
+                                <div><a href="#" class="btn btn-danger fs-5">Add to Cart</a></div>
+                            </div>
+    
+                            <div class="d-flex flex-column text-end">
+                                <p class="fw-bold fs-5">₹60</p>
+                                <div class="flex-grow-1"></div>
+                                <div class="d-flex fw-bold fs-5 card-rating"><img src="/assets/icons/star.svg" width="28" alt="★"> (4.6)</div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="my-5 col-12 col-xl-6 col-xxl-3">
-                <div class="my-card px-3 pb-3">
-                    <img src="/assets/img/burger_combo.png" class="my-card-img" alt="Burger Combo">
+            <div class="col-12 col-xl-6 col-xxl-3">
+                <div class="card rounded-top-pill rounded-bottom-5 mx-auto" style="width: 18rem;">
+                    <div class="card-img-placeholder position-relative">
+                        <img src="/assets/img/burger_combo.png" class="position-absolute card-img-top_" alt="...">
 
-                    <h3 class="my-card-title fw-bold mt-4">Burger Combo</h3>
-
-                    <div class="d-flex flex-row">
-                        <p class="my-card-description flex-grow-1 pt-1">Descripción de la <br>comida, con <br>ingredientes</p>
-                        <p class="fw-bold fs-4">&#8377;60</p>
                     </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold fs-4">Masala Dosa</h5>
 
-                    <div class="d-flex flex-row">
-                        <button type="button" class="btn btn-danger">Add to Cart</button>
-                        <div class="flex-grow-1"></div>
                         <div class="d-flex flex-row">
-                            <img src="/assets/icons/star.svg" width="28" alt="★">
-                            <p class="my-card-rating fw-bold my-auto">(4.6)</p>
+                            <div class="d-flex flex-column">
+                                <p class="card-text pt-2">Descripcion de la comida, con ingredientes.</p>
+                                <div class="flex-grow-1"></div>
+                                <div><a href="#" class="btn btn-danger fs-5">Add to Cart</a></div>
+                            </div>
+    
+                            <div class="d-flex flex-column text-end">
+                                <p class="fw-bold fs-5">₹60</p>
+                                <div class="flex-grow-1"></div>
+                                <div class="d-flex fw-bold fs-5 card-rating"><img src="/assets/icons/star.svg" width="28" alt="★"> (4.6)</div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="my-5 col-12 col-xl-6 col-xxl-3">
-                <div class="my-card px-3 pb-3">
-                    <img src="/assets/img/veg_samosa.png" class="my-card-img" alt="Veg Samosa">
+            <div class="col-12 col-xl-6 col-xxl-3">
+                <div class="card rounded-top-pill rounded-bottom-5 mx-auto" style="width: 18rem;">
+                    <div class="card-img-placeholder position-relative">
+                        <img src="/assets/img/veg_samosa.png" class="position-absolute card-img-top_" alt="...">
 
-                    <h3 class="my-card-title fw-bold mt-4">Veg Samosa</h3>
-
-                    <div class="d-flex flex-row">
-                        <p class="my-card-description flex-grow-1 pt-1">Descripción de la <br>comida, con <br>ingredientes</p>
-                        <p class="fw-bold fs-4">&#8377;60</p>
                     </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold fs-4">Masala Dosa</h5>
 
-                    <div class="d-flex flex-row">
-                        <button type="button" class="btn btn-danger">Add to Cart</button>
-                        <div class="flex-grow-1"></div>
                         <div class="d-flex flex-row">
-                            <img src="/assets/icons/star.svg" width="28" alt="★">
-                            <p class="my-card-rating fw-bold my-auto">(4.6)</p>
+                            <div class="d-flex flex-column">
+                                <p class="card-text pt-2">Descripcion de la comida, con ingredientes.</p>
+                                <div class="flex-grow-1"></div>
+                                <div><a href="#" class="btn btn-danger fs-5">Add to Cart</a></div>
+                            </div>
+    
+                            <div class="d-flex flex-column text-end">
+                                <p class="fw-bold fs-5">₹60</p>
+                                <div class="flex-grow-1"></div>
+                                <div class="d-flex fw-bold fs-5 card-rating"><img src="/assets/icons/star.svg" width="28" alt="★"> (4.6)</div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="my-5 col-12 col-xl-6 col-xxl-3">
-                <div class="my-card px-3 pb-3">
-                    <img src="/assets/img/hakka_noodles.png" class="my-card-img" alt="Hakka Noodles">
+            <div class="col-12 col-xl-6 col-xxl-3">
+                <div class="card rounded-top-pill rounded-bottom-5 mx-auto" style="width: 18rem;">
+                    <div class="card-img-placeholder position-relative">
+                        <img src="/assets/img/hakka_noodles.png" class="position-absolute card-img-top_" alt="...">
 
-                    <h3 class="my-card-title fw-bold mt-4">Hakka Noodles</h3>
-
-                    <div class="d-flex flex-row">
-                        <p class="my-card-description flex-grow-1 pt-1">Descripción de la <br>comida, con <br>ingredientes</p>
-                        <p class="fw-bold fs-4">&#8377;60</p>
                     </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold fs-4">Masala Dosa</h5>
 
-                    <div class="d-flex flex-row">
-                        <button type="button" class="btn btn-danger">Add to Cart</button>
-                        <div class="flex-grow-1"></div>
                         <div class="d-flex flex-row">
-                            <img src="/assets/icons/star.svg" width="28" alt="★">
-                            <p class="my-card-rating fw-bold my-auto">(4.6)</p>
+                            <div class="d-flex flex-column">
+                                <p class="card-text pt-2">Descripcion de la comida, con ingredientes.</p>
+                                <div class="flex-grow-1"></div>
+                                <div><a href="#" class="btn btn-danger fs-5">Add to Cart</a></div>
+                            </div>
+    
+                            <div class="d-flex flex-column text-end">
+                                <p class="fw-bold fs-5">₹60</p>
+                                <div class="flex-grow-1"></div>
+                                <div class="d-flex fw-bold fs-5 card-rating"><img src="/assets/icons/star.svg" width="28" alt="★"> (4.6)</div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="my-5 col-12 col-xl-6 col-xxl-3">
-                <div class="my-card px-3 pb-3">
-                    <img src="/assets/img/special_pizza.png" class="my-card-img" alt="Special Pizza">
+            <div class="col-12 col-xl-6 col-xxl-3">
+                <div class="card rounded-top-pill rounded-bottom-5 mx-auto" style="width: 18rem;">
+                    <div class="card-img-placeholder position-relative">
+                        <img src="/assets/img/special_pizza.png" class="position-absolute card-img-top_" alt="...">
 
-                    <h3 class="my-card-title fw-bold mt-4">Special Pizza</h3>
-
-                    <div class="d-flex flex-row">
-                        <p class="my-card-description flex-grow-1 pt-1">Descripción de la <br>comida, con <br>ingredientes</p>
-                        <p class="fw-bold fs-4">&#8377;60</p>
                     </div>
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold fs-4">Masala Dosa</h5>
 
-                    <div class="d-flex flex-row">
-                        <button type="button" class="btn btn-danger">Add to Cart</button>
-                        <div class="flex-grow-1"></div>
                         <div class="d-flex flex-row">
-                            <img src="/assets/icons/star.svg" width="28" alt="★">
-                            <p class="my-card-rating fw-bold my-auto">(4.6)</p>
+                            <div class="d-flex flex-column">
+                                <p class="card-text pt-2">Descripcion de la comida, con ingredientes.</p>
+                                <div class="flex-grow-1"></div>
+                                <div><a href="#" class="btn btn-danger fs-5">Add to Cart</a></div>
+                            </div>
+    
+                            <div class="d-flex flex-column text-end">
+                                <p class="fw-bold fs-5">₹60</p>
+                                <div class="flex-grow-1"></div>
+                                <div class="d-flex fw-bold fs-5 card-rating"><img src="/assets/icons/star.svg" width="28" alt="★"> (4.6)</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -233,9 +278,20 @@
     </div>
 
 
-    <div class="text-center bg-warning py-2 mt-10">Build by <span class="fw-bold">Rajan Khade</span></div>
+
+    <div class="text-center bg-warning py-2 mt-5">Build by <span class="fw-bold">Rajan Khade</span></div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener("scroll", function() {
+            const navbar = document.querySelector(".navbar");
+            if (window.scrollY > 100) {
+                navbar.classList.add("scrolled-navbar");
+            } else {
+                navbar.classList.remove("scrolled-navbar");
+            }
+        });
+    </script>
 </body>
 
 </html>
