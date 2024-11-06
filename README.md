@@ -1,5 +1,13 @@
 # ESD Assignment 1
 
+GitHub Repo: https://github.com/rajan-31/ESD_Assignment_1
+
+### Demo
+
+[Click here for video](./demo/ESD_Assignment_1_demo.webm) 
+
+![Home](./demo/Home.png) ![Sign Up](./demo/Sign%20Up.png)
+
 ### Problem Statement
 
 Build a static e-commerce web application featuring the following pages, using HTML, basic CSS, and Bootstrap to structure and style the layout.
