@@ -1,5 +1,7 @@
 # ESD Assignment 1
 
+Deployment: https://rajan-31.github.io/ESD_Assignment_1
+
 GitHub Repo: https://github.com/rajan-31/ESD_Assignment_1
 
 ### Demo
